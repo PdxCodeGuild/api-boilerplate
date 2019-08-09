@@ -1,7 +1,7 @@
 {
   "name": "@pdx-code-guild/create-api-boilerplate",
   "version": "0.0.1",
-  "description": "",
+  "description": "A educational tool for creating a Node API project easily, meant for use with beginners.",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
