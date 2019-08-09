@@ -1,6 +1,6 @@
 {
   "name": "@pdx-code-guild/create-api-boilerplate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -33,7 +33,7 @@
   },
   "license": "MIT",
   "bin": {
-    "create-boilerplate": "dist/index.js"
+    "create-api-boilerplate": "dist/index.js"
   },
   "devDependencies": {
     "cli-spinner": "^0.2.10",
