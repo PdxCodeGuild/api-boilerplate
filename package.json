@@ -1,6 +1,6 @@
 {
   "name": "apo-boilerplate",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -12,7 +12,8 @@
     "build:bundle": "rollup -c",
     "minify": "terser --compress --mangle --toplevel --output dist/index.js -- dist/index.js",
     "build": "yarn build:tsc && yarn build:bundle && yarn minify",
-    "build:dev": "yarn build:tsc && yarn build:bundle"
+    "build:dev": "yarn build:tsc && yarn build:bundle",
+    "publish": "np"
   },
   "files": [
     "dist/index.js"
@@ -36,6 +37,7 @@
   "devDependencies": {
     "cli-spinner": "^0.2.10",
     "nodemon": "^1.19.1",
+    "np": "^5.0.3",
     "rollup": "^1.19.4",
     "rollup-plugin-commonjs": "^10.0.2",
     "rollup-plugin-json": "^4.0.0",
