@@ -1,6 +1,6 @@
 {
   "name": "apo-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -13,7 +13,8 @@
     "minify": "terser --compress --mangle --toplevel --output dist/index.js -- dist/index.js",
     "build": "yarn build:tsc && yarn build:bundle && yarn minify",
     "build:dev": "yarn build:tsc && yarn build:bundle",
-    "publish": "np"
+    "version": "yarn build",
+    "release": "np"
   },
   "files": [
     "dist/index.js"
