@@ -7,7 +7,7 @@
     "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "yarn build:dev && yarn start",
-    "develop:watch": "nodemon -- yarn develop",
+    "develop:watch": "nodemon --watch src --exec yarn develop",
     "build:tsc": "tsc",
     "build:bundle": "rollup -c",
     "minify": "terser --compress --mangle --toplevel --output dist/index.js -- dist/index.js",
