@@ -16,16 +16,17 @@ export default {
     commonjs()
   ],
   external: [
-    'child_process',
-    'fs',
-    'path',
-    'os',
-    'https',
-    'readline',
-    'zlib',
-    'events',
-    'stream',
-    'util',
-    'buffer'
+    // Add external deps when needed!
+    // 'child_process',
+    // 'fs',
+    // 'path',
+    // 'os',
+    // 'https',
+    // 'readline',
+    // 'zlib',
+    // 'events',
+    // 'stream',
+    // 'util',
+    // 'buffer'
   ]
 };

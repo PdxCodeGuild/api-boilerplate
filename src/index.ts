@@ -4,7 +4,8 @@ interface Message {
 }
 
 const m: Message = {
-  text: "hello"
+  text: "hello",
+  sender: "Me"
 }
 
 console.log(m);
